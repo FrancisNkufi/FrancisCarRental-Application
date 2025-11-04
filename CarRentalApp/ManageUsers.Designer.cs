@@ -59,52 +59,57 @@
             // 
             // btnDeactivateUser
             // 
+            this.btnDeactivateUser.BackColor = System.Drawing.Color.Red;
             this.btnDeactivateUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeactivateUser.Location = new System.Drawing.Point(294, 226);
             this.btnDeactivateUser.Name = "btnDeactivateUser";
             this.btnDeactivateUser.Size = new System.Drawing.Size(199, 40);
             this.btnDeactivateUser.TabIndex = 13;
             this.btnDeactivateUser.Text = "Deactivate/Activate User";
-            this.btnDeactivateUser.UseVisualStyleBackColor = true;
+            this.btnDeactivateUser.UseVisualStyleBackColor = false;
             this.btnDeactivateUser.Click += new System.EventHandler(this.btnDeactivateUser_Click);
             // 
             // btnResetUserPassword
             // 
+            this.btnResetUserPassword.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnResetUserPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetUserPassword.Location = new System.Drawing.Point(135, 225);
             this.btnResetUserPassword.Name = "btnResetUserPassword";
             this.btnResetUserPassword.Size = new System.Drawing.Size(139, 41);
             this.btnResetUserPassword.TabIndex = 12;
             this.btnResetUserPassword.Text = "Reset Password";
-            this.btnResetUserPassword.UseVisualStyleBackColor = true;
+            this.btnResetUserPassword.UseVisualStyleBackColor = false;
             this.btnResetUserPassword.Click += new System.EventHandler(this.btnResetUserPassword_Click);
             // 
             // btnAddUserManageUsers
             // 
+            this.btnAddUserManageUsers.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnAddUserManageUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddUserManageUsers.Location = new System.Drawing.Point(12, 227);
             this.btnAddUserManageUsers.Name = "btnAddUserManageUsers";
             this.btnAddUserManageUsers.Size = new System.Drawing.Size(117, 41);
             this.btnAddUserManageUsers.TabIndex = 11;
             this.btnAddUserManageUsers.Text = "Add a User";
-            this.btnAddUserManageUsers.UseVisualStyleBackColor = true;
+            this.btnAddUserManageUsers.UseVisualStyleBackColor = false;
             this.btnAddUserManageUsers.Click += new System.EventHandler(this.btnAddUserManageUsers_Click);
             // 
             // btnRefreshUsersLists
             // 
+            this.btnRefreshUsersLists.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnRefreshUsersLists.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefreshUsersLists.Location = new System.Drawing.Point(500, 227);
             this.btnRefreshUsersLists.Name = "btnRefreshUsersLists";
             this.btnRefreshUsersLists.Size = new System.Drawing.Size(107, 38);
             this.btnRefreshUsersLists.TabIndex = 14;
             this.btnRefreshUsersLists.Text = "Refresh List";
-            this.btnRefreshUsersLists.UseVisualStyleBackColor = true;
+            this.btnRefreshUsersLists.UseVisualStyleBackColor = false;
             this.btnRefreshUsersLists.Click += new System.EventHandler(this.btnRefreshUsersLists_Click);
             // 
             // ManageUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(619, 278);
             this.Controls.Add(this.btnRefreshUsersLists);
             this.Controls.Add(this.btnDeactivateUser);

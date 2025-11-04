@@ -52,7 +52,7 @@
             // 
             // btnResetPassword
             // 
-            this.btnResetPassword.BackColor = System.Drawing.SystemColors.Info;
+            this.btnResetPassword.BackColor = System.Drawing.Color.YellowGreen;
             this.btnResetPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetPassword.Location = new System.Drawing.Point(150, 264);
             this.btnResetPassword.Name = "btnResetPassword";
@@ -71,7 +71,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tbxNewPassWord, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tbxConfirmPassword, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.labelNewPssW, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 44);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 58);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -82,7 +82,7 @@
             // labelConfirmPassword
             // 
             this.labelConfirmPassword.AutoSize = true;
-            this.labelConfirmPassword.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.labelConfirmPassword.BackColor = System.Drawing.SystemColors.Highlight;
             this.labelConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelConfirmPassword.Location = new System.Drawing.Point(3, 94);
             this.labelConfirmPassword.Name = "labelConfirmPassword";
@@ -110,7 +110,7 @@
             // labelNewPssW
             // 
             this.labelNewPssW.AutoSize = true;
-            this.labelNewPssW.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.labelNewPssW.BackColor = System.Drawing.SystemColors.Highlight;
             this.labelNewPssW.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNewPssW.Location = new System.Drawing.Point(3, 0);
             this.labelNewPssW.Name = "labelNewPssW";
@@ -122,6 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Green;
             this.ClientSize = new System.Drawing.Size(476, 316);
             this.Controls.Add(this.btnResetPassword);
             this.Controls.Add(this.tableLayoutPanel1);

@@ -30,18 +30,18 @@
         {
             this.labelTitleoFAddCarForm = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tbxLicencePlateAddCar = new System.Windows.Forms.TextBox();
+            this.tbxYearAddCar = new System.Windows.Forms.TextBox();
+            this.tbxVINAddCar = new System.Windows.Forms.TextBox();
+            this.tbxModelAddCar = new System.Windows.Forms.TextBox();
+            this.labelVINAddCar = new System.Windows.Forms.Label();
+            this.labelModelAddCar = new System.Windows.Forms.Label();
+            this.labelMakeAddCar = new System.Windows.Forms.Label();
+            this.labelLicencePlateAddCar = new System.Windows.Forms.Label();
+            this.labelYearAddCar = new System.Windows.Forms.Label();
+            this.tbxMakeAddCar = new System.Windows.Forms.TextBox();
             this.btnSaveChangesAddCar = new System.Windows.Forms.Button();
             this.btnCancelAddCar = new System.Windows.Forms.Button();
-            this.labelMakeAddCar = new System.Windows.Forms.Label();
-            this.labelModelAddCar = new System.Windows.Forms.Label();
-            this.labelVINAddCar = new System.Windows.Forms.Label();
-            this.labelYearAddCar = new System.Windows.Forms.Label();
-            this.labelLicencePlateAddCar = new System.Windows.Forms.Label();
-            this.tbxMakeAddCar = new System.Windows.Forms.TextBox();
-            this.tbxModelAddCar = new System.Windows.Forms.TextBox();
-            this.tbxVINAddCar = new System.Windows.Forms.TextBox();
-            this.tbxYearAddCar = new System.Windows.Forms.TextBox();
-            this.tbxLicencePlateAddCar = new System.Windows.Forms.TextBox();
             this.labelIDAddCar = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -83,45 +83,33 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(402, 162);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // btnSaveChangesAddCar
+            // tbxLicencePlateAddCar
             // 
-            this.btnSaveChangesAddCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveChangesAddCar.Location = new System.Drawing.Point(52, 238);
-            this.btnSaveChangesAddCar.Name = "btnSaveChangesAddCar";
-            this.btnSaveChangesAddCar.Size = new System.Drawing.Size(119, 32);
-            this.btnSaveChangesAddCar.TabIndex = 3;
-            this.btnSaveChangesAddCar.Text = "Save Changes";
-            this.btnSaveChangesAddCar.UseVisualStyleBackColor = true;
-            this.btnSaveChangesAddCar.Click += new System.EventHandler(this.btnSaveChangesAddCar_Click);
+            this.tbxLicencePlateAddCar.Location = new System.Drawing.Point(204, 131);
+            this.tbxLicencePlateAddCar.Name = "tbxLicencePlateAddCar";
+            this.tbxLicencePlateAddCar.Size = new System.Drawing.Size(181, 20);
+            this.tbxLicencePlateAddCar.TabIndex = 9;
             // 
-            // btnCancelAddCar
+            // tbxYearAddCar
             // 
-            this.btnCancelAddCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelAddCar.Location = new System.Drawing.Point(351, 238);
-            this.btnCancelAddCar.Name = "btnCancelAddCar";
-            this.btnCancelAddCar.Size = new System.Drawing.Size(103, 32);
-            this.btnCancelAddCar.TabIndex = 4;
-            this.btnCancelAddCar.Text = "Cancel";
-            this.btnCancelAddCar.UseVisualStyleBackColor = true;
-            this.btnCancelAddCar.Click += new System.EventHandler(this.btnCancelAddCar_Click);
+            this.tbxYearAddCar.Location = new System.Drawing.Point(204, 99);
+            this.tbxYearAddCar.Name = "tbxYearAddCar";
+            this.tbxYearAddCar.Size = new System.Drawing.Size(181, 20);
+            this.tbxYearAddCar.TabIndex = 8;
             // 
-            // labelMakeAddCar
+            // tbxVINAddCar
             // 
-            this.labelMakeAddCar.AutoSize = true;
-            this.labelMakeAddCar.Location = new System.Drawing.Point(3, 0);
-            this.labelMakeAddCar.Name = "labelMakeAddCar";
-            this.labelMakeAddCar.Size = new System.Drawing.Size(34, 13);
-            this.labelMakeAddCar.TabIndex = 0;
-            this.labelMakeAddCar.Text = "Make";
+            this.tbxVINAddCar.Location = new System.Drawing.Point(204, 67);
+            this.tbxVINAddCar.Name = "tbxVINAddCar";
+            this.tbxVINAddCar.Size = new System.Drawing.Size(181, 20);
+            this.tbxVINAddCar.TabIndex = 7;
             // 
-            // labelModelAddCar
+            // tbxModelAddCar
             // 
-            this.labelModelAddCar.AutoSize = true;
-            this.labelModelAddCar.Location = new System.Drawing.Point(3, 32);
-            this.labelModelAddCar.Name = "labelModelAddCar";
-            this.labelModelAddCar.Size = new System.Drawing.Size(36, 13);
-            this.labelModelAddCar.TabIndex = 1;
-            this.labelModelAddCar.Text = "Model";
+            this.tbxModelAddCar.Location = new System.Drawing.Point(204, 35);
+            this.tbxModelAddCar.Name = "tbxModelAddCar";
+            this.tbxModelAddCar.Size = new System.Drawing.Size(181, 20);
+            this.tbxModelAddCar.TabIndex = 6;
             // 
             // labelVINAddCar
             // 
@@ -132,14 +120,23 @@
             this.labelVINAddCar.TabIndex = 2;
             this.labelVINAddCar.Text = "VIN";
             // 
-            // labelYearAddCar
+            // labelModelAddCar
             // 
-            this.labelYearAddCar.AutoSize = true;
-            this.labelYearAddCar.Location = new System.Drawing.Point(3, 96);
-            this.labelYearAddCar.Name = "labelYearAddCar";
-            this.labelYearAddCar.Size = new System.Drawing.Size(29, 13);
-            this.labelYearAddCar.TabIndex = 3;
-            this.labelYearAddCar.Text = "Year";
+            this.labelModelAddCar.AutoSize = true;
+            this.labelModelAddCar.Location = new System.Drawing.Point(3, 32);
+            this.labelModelAddCar.Name = "labelModelAddCar";
+            this.labelModelAddCar.Size = new System.Drawing.Size(36, 13);
+            this.labelModelAddCar.TabIndex = 1;
+            this.labelModelAddCar.Text = "Model";
+            // 
+            // labelMakeAddCar
+            // 
+            this.labelMakeAddCar.AutoSize = true;
+            this.labelMakeAddCar.Location = new System.Drawing.Point(3, 0);
+            this.labelMakeAddCar.Name = "labelMakeAddCar";
+            this.labelMakeAddCar.Size = new System.Drawing.Size(34, 13);
+            this.labelMakeAddCar.TabIndex = 0;
+            this.labelMakeAddCar.Text = "Make";
             // 
             // labelLicencePlateAddCar
             // 
@@ -150,6 +147,15 @@
             this.labelLicencePlateAddCar.TabIndex = 4;
             this.labelLicencePlateAddCar.Text = "Licence Plate";
             // 
+            // labelYearAddCar
+            // 
+            this.labelYearAddCar.AutoSize = true;
+            this.labelYearAddCar.Location = new System.Drawing.Point(3, 96);
+            this.labelYearAddCar.Name = "labelYearAddCar";
+            this.labelYearAddCar.Size = new System.Drawing.Size(29, 13);
+            this.labelYearAddCar.TabIndex = 3;
+            this.labelYearAddCar.Text = "Year";
+            // 
             // tbxMakeAddCar
             // 
             this.tbxMakeAddCar.Location = new System.Drawing.Point(204, 3);
@@ -157,33 +163,29 @@
             this.tbxMakeAddCar.Size = new System.Drawing.Size(181, 20);
             this.tbxMakeAddCar.TabIndex = 5;
             // 
-            // tbxModelAddCar
+            // btnSaveChangesAddCar
             // 
-            this.tbxModelAddCar.Location = new System.Drawing.Point(204, 35);
-            this.tbxModelAddCar.Name = "tbxModelAddCar";
-            this.tbxModelAddCar.Size = new System.Drawing.Size(181, 20);
-            this.tbxModelAddCar.TabIndex = 6;
+            this.btnSaveChangesAddCar.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSaveChangesAddCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveChangesAddCar.Location = new System.Drawing.Point(52, 238);
+            this.btnSaveChangesAddCar.Name = "btnSaveChangesAddCar";
+            this.btnSaveChangesAddCar.Size = new System.Drawing.Size(119, 32);
+            this.btnSaveChangesAddCar.TabIndex = 3;
+            this.btnSaveChangesAddCar.Text = "Save Changes";
+            this.btnSaveChangesAddCar.UseVisualStyleBackColor = false;
+            this.btnSaveChangesAddCar.Click += new System.EventHandler(this.btnSaveChangesAddCar_Click);
             // 
-            // tbxVINAddCar
+            // btnCancelAddCar
             // 
-            this.tbxVINAddCar.Location = new System.Drawing.Point(204, 67);
-            this.tbxVINAddCar.Name = "tbxVINAddCar";
-            this.tbxVINAddCar.Size = new System.Drawing.Size(181, 20);
-            this.tbxVINAddCar.TabIndex = 7;
-            // 
-            // tbxYearAddCar
-            // 
-            this.tbxYearAddCar.Location = new System.Drawing.Point(204, 99);
-            this.tbxYearAddCar.Name = "tbxYearAddCar";
-            this.tbxYearAddCar.Size = new System.Drawing.Size(181, 20);
-            this.tbxYearAddCar.TabIndex = 8;
-            // 
-            // tbxLicencePlateAddCar
-            // 
-            this.tbxLicencePlateAddCar.Location = new System.Drawing.Point(204, 131);
-            this.tbxLicencePlateAddCar.Name = "tbxLicencePlateAddCar";
-            this.tbxLicencePlateAddCar.Size = new System.Drawing.Size(181, 20);
-            this.tbxLicencePlateAddCar.TabIndex = 9;
+            this.btnCancelAddCar.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnCancelAddCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelAddCar.Location = new System.Drawing.Point(351, 238);
+            this.btnCancelAddCar.Name = "btnCancelAddCar";
+            this.btnCancelAddCar.Size = new System.Drawing.Size(103, 32);
+            this.btnCancelAddCar.TabIndex = 4;
+            this.btnCancelAddCar.Text = "Cancel";
+            this.btnCancelAddCar.UseVisualStyleBackColor = false;
+            this.btnCancelAddCar.Click += new System.EventHandler(this.btnCancelAddCar_Click);
             // 
             // labelIDAddCar
             // 
@@ -198,6 +200,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(532, 282);
             this.Controls.Add(this.labelIDAddCar);
             this.Controls.Add(this.btnCancelAddCar);

@@ -127,11 +127,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Font = new System.Drawing.Font("Matura MT Script Capitals", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(242, 315);
+            this.button1.Location = new System.Drawing.Point(272, 310);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 52);
             this.button1.TabIndex = 9;
@@ -169,6 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(633, 392);
             this.Controls.Add(this.labelRecordID);
             this.Controls.Add(this.Cost);

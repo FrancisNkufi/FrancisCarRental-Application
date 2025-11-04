@@ -33,7 +33,6 @@
             this.manageRentalRecordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addRentalRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewArchiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editRentalRecordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.loggedAsLabel = new System.Windows.Forms.ToolStripStatusLabel();
@@ -64,8 +63,7 @@
             // 
             this.manageRentalRecordsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addRentalRecordToolStripMenuItem,
-            this.viewArchiveToolStripMenuItem,
-            this.editRentalRecordToolStripMenuItem});
+            this.viewArchiveToolStripMenuItem});
             this.manageRentalRecordsToolStripMenuItem.Name = "manageRentalRecordsToolStripMenuItem";
             this.manageRentalRecordsToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.manageRentalRecordsToolStripMenuItem.Text = "Manage Rental Records";
@@ -73,22 +71,16 @@
             // addRentalRecordToolStripMenuItem
             // 
             this.addRentalRecordToolStripMenuItem.Name = "addRentalRecordToolStripMenuItem";
-            this.addRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.addRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addRentalRecordToolStripMenuItem.Text = "Add Rental Record";
             this.addRentalRecordToolStripMenuItem.Click += new System.EventHandler(this.addRentalRecordToolStripMenuItem_Click);
             // 
             // viewArchiveToolStripMenuItem
             // 
             this.viewArchiveToolStripMenuItem.Name = "viewArchiveToolStripMenuItem";
-            this.viewArchiveToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.viewArchiveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.viewArchiveToolStripMenuItem.Text = "View Archive";
             this.viewArchiveToolStripMenuItem.Click += new System.EventHandler(this.viewArchiveToolStripMenuItem_Click);
-            // 
-            // editRentalRecordToolStripMenuItem
-            // 
-            this.editRentalRecordToolStripMenuItem.Name = "editRentalRecordToolStripMenuItem";
-            this.editRentalRecordToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.editRentalRecordToolStripMenuItem.Text = "Edit Rental Record";
             // 
             // manageUsersToolStripMenuItem
             // 
@@ -116,9 +108,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(693, 510);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
@@ -140,7 +134,6 @@
         private System.Windows.Forms.ToolStripMenuItem manageRentalRecordsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addRentalRecordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewArchiveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editRentalRecordToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manageUsersToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel loggedAsLabel;

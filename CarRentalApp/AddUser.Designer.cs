@@ -106,7 +106,7 @@
             // 
             // btnAddUserOnAddUser
             // 
-            this.btnAddUserOnAddUser.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnAddUserOnAddUser.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnAddUserOnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddUserOnAddUser.Location = new System.Drawing.Point(30, 215);
             this.btnAddUserOnAddUser.Name = "btnAddUserOnAddUser";
@@ -118,7 +118,7 @@
             // 
             // btnCancelOnAddUser
             // 
-            this.btnCancelOnAddUser.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnCancelOnAddUser.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnCancelOnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelOnAddUser.Location = new System.Drawing.Point(223, 215);
             this.btnCancelOnAddUser.Name = "btnCancelOnAddUser";

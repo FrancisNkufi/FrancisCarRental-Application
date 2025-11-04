@@ -56,7 +56,7 @@ namespace CarRentalApp
                 var hashed_password = Util.DefaultHashPassword(); // In a real application, consider generating a random password or sending a reset link.
                 selectedUserDetails.password = hashed_password;
                 _db.SaveChanges();
-                MessageBox.Show($"Password has been reset to '{hashed_password}'. Please advise the user to change it upon next login.",
+                MessageBox.Show($"Password has been reset to default: 'Password@123'. Please advise the user to change it upon next login.",
                     "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }

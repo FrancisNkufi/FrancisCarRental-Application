@@ -64,7 +64,7 @@ namespace CarRentalApp
         {
             if(_user.password == Util.DefaultHashPassword())
             {
-              //  MessageBox.Show("You are required to change your default password before proceeding.", "Change Password", MessageBoxButtons.OK, MessageBoxIcon.Information);
+               MessageBox.Show("You have logged in with default password, " + "Next page will allow you to create a new one", "Change Password", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 var resetPasswordForm = new ResetPassword(_user);
                 resetPasswordForm.ShowDialog();
             }

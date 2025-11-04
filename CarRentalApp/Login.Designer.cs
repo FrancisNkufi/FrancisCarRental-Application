@@ -44,7 +44,7 @@
             this.labelLoginTitle.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.labelLoginTitle.Font = new System.Drawing.Font("Freestyle Script", 40F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLoginTitle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.labelLoginTitle.Location = new System.Drawing.Point(131, 9);
+            this.labelLoginTitle.Location = new System.Drawing.Point(136, 9);
             this.labelLoginTitle.Name = "labelLoginTitle";
             this.labelLoginTitle.Size = new System.Drawing.Size(100, 64);
             this.labelLoginTitle.TabIndex = 1;
@@ -107,7 +107,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.SystemColors.Info;
+            this.btnLogin.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(104, 282);
             this.btnLogin.Name = "btnLogin";
